@@ -1,0 +1,5 @@
+﻿1º: NET 6 - Minimal APIs - Objetivos:
+	1.1º: Reduzir a complexidade do código para quem está começando agora;
+	1.2º: Reduzir recursos não essenciais(controllers, roteamento, filtros, etc) que estavam presentes nos projetos ASP.NET;
+	1.3º: Abraçar o conceito de minimalismo a nível de API;
+	1.4º: Ser escalável, garantindo que sua aplicação possa crescer se necessário;

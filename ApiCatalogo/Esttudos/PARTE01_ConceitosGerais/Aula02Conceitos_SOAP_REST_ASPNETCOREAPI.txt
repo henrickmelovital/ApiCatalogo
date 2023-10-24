@@ -1,0 +1,39 @@
+1º: SOAP:
+    1.1º: É um protocolo (W3C) baseada em XML, usada para trocar informações entre aplicações no mesmo ou em diferentes sistemas operacionais;
+    1.2º: Todas as mensagens SOAP usam o mesmo formato;
+    1.3º: É independente de protocolo (HTTP, SMTP, etc.) e devem retornar XML;
+    1.4º: Um navegador não pode armazenar em cache uma solicitação concluída a uma API SOAP;
+
+2º: REST:
+    2.1º: É um estilo arquitetural sem estado que consiste de um conjunto coordenado de restrições arquiteturais aplicadas a componentes, conectores e elementos de dados dentro de um sistema de hipermídia distribuidos;
+    2.2º: Tratam cada entidade como um recurso que pode ser acessado por uma interface comum;
+    2.3º: O acesso é baseado no protocolo HTTP (GET, POST, PUT e DELETE);
+    2.4º: REST não é a mesma coisa que HTTP;
+
+3º: REST - Caracteristicas:
+    3.1º: É um estilo arquitetural;
+    3.2º: Usa JSON ou XML para enviar e receber dados;
+    3.3º: REST não precisa de muita largura de banda;
+    3.4º: Trabalha com texto, XML, JSON e HTML;
+    3.5º: Usa os verbos HTTP (GET, POST, PUT, DELETE) para acessar um serviço (Pode usar outros protocolos);
+    3.6º: Invoca os serviços via URI;
+
+4º: SOAP - Caracteristicas:
+    4.1º: É um protocolo;
+    4.2º: Usa WSDL (Web Services Description Language) para comunicação entre clientes e o provedor;
+    4.3º: SOAP precisa de mais largura de banda para seu uso;
+    4.4º: Trabalha praticamente com o formato XML;
+    4.5º: Independente do protocolo (HTTP, SMTP, TCP, IMS, etc.);
+    4.6º: Invoca os serviçs usando métodos RPC;
+
+5º: Web API ASP.NET Core:
+    5.1º: É o framework da Microsoft para criar Web APIs aderentes ao estilo REST(RestFul) na plataforma .NET Core;
+    5.2º: Permite criar serviços RESTful, conhecidos como WebAPIs usando a linguagem C#;
+    5.3º: Para tratar as solicitações usa os Controladores que são classes C#;
+    5.4º: Podemos também usar as Minimal APIs para tratar os requests criando APIs com apenas um único arquivo;
+
+6º: REST x RESTful:
+    6.1º: Uma API é RestFul quando ela é aderente ao estilo REST;
+    6.2º: Possuir uma arquitetura cliente-servidor;
+    6.3º: Ser sem estado;
+    6.4º: Ter uma interface uniforme;

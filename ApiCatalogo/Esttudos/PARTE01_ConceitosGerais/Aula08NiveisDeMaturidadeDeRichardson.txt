@@ -1,0 +1,9 @@
+1º: REST: 
+    1.1º: REST (Representationla State Transfer) é um estilo de arquitetura popular para projetar serviço da web para buscar ou alterar dados remotos;
+    1.2º: As APIs que estão em conformidade com as regras ou restrições REST são consideradas mais maduras porque oferecem facilidade, flexibilidade e interoperabilidade;
+    1.3º: Puristas: Seguem à risca as regras/restrições REST;
+    1.4º: Pragmáticos: Ignoram algumas regras e implementam outras;
+
+2º: Modelo de maturidade de Richardson:
+    2.1º: É um modelos sugerido em 2008 por Leonard Richardson que classifica as APIs com base em sua aderência e conformidade com cada um dos quatro níveis do modelo:
+    2.2º: A maturidade de um serviço é baseada em três fatores neste modelo: Recursos/URI, verbos HTTP e HATEOAS (Hipermidia);

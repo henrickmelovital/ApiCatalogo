@@ -1,0 +1,26 @@
+1º: HTTP:
+    1.1º: Essa mensagens baseadas no protocolo HTTP são usados para acessar e manipular os recursos da WEB API;
+    1.2º: Essas mensagens HTTP possuem uma estrutura;
+
+2º: Uma requisição HTTP se divide em 3 partes:
+    2.1º: Request Line: Métodos HTTP + URI + protocolo HTTP:
+        2.1.1º: GET /api/livros HTTP/1.1;
+        2.1.2º: POST /appi/livros/ HTTP/1.1
+    2.2º: Headers: Metadados que se enviam na requisição com informação:
+        2.2.1º: Host: Microsoft.com Accept: text/*
+        2.2.2º: Cache-Controll:no-cache Accept-Language:pt, br;
+    2.3º: Body(opcional): Informação adicional enviado ao servidor:
+        2.3.1º: Dados de Texto;
+        2.3.2º: Dados JSON/XML;
+        2.3.3º: o request GET não possui Body;
+
+3º: Exemplo de requisição HTTP:
+    3.1º: 
+        POST/api/livros/HTTP/1.1
+        Host: Microsoft.com
+        Cacge-Control: no cache
+        Accept-Language: pt, br
+        {
+            "Nome": "Web API Básico",
+            "Autor": "macoratti"
+        }

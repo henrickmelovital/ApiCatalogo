@@ -1,0 +1,5 @@
+﻿1º: Definir Relacionamento entre Categoria e Produto:
+	1.1º: Uma categoria pode ter um ou mais produtos;
+	1.2º: Relacionamento um-para-muitos entre a tabela Categoria e a table Produtos;
+	1.3º: A fomra mais simples de definir um relacionamento entre entidades é usar as convenções do EF Core;
+	1.4º: Incluímos uma propriedade de navegação onde definimos que uma Categoria pode conter uma coleção de Produtos

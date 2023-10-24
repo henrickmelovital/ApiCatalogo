@@ -1,0 +1,12 @@
+1º: HTTPS - Hyper Text Transfer Protocol Secure:
+    1.1º: O HTTPS é uma extensão segura do HTTP;
+    1.2º: TLS - Transport Layer Security - Permite a comunicação criptografada entre um site e um navegador e substitui o protocolo SSL - Secure Sockets Layer;
+    1.3º: Os sites que configurarem um certificado TLS podem utilizar o protocolo HTTPS para estabelecer uma comunicação segura com o servidor;
+    1.4º: O objetivo do TLS é tornar segura a transmissão de informações sensíveis como dados pessoais, de pagamento ou de login;
+
+2º: ASP.NET Core e HTTPS:
+    2.1º: Ao criar o projeto ASP.NET Core são definidos os middlewares:
+    2.2º: HTTP de redirecionamento - app.UseHttpsRedirection - que redireciona uma requisição HTTP para HTTPS;
+    2.3º: HSTS - app.UseHsts - Envia ao cliente um header Strict-Transport-Security(HSTS) que indica aos navegadores que nossa API deve ser acessada via https e não via http
+
+3º: WEB APIS - não deve usar o atributo RequireHttps;

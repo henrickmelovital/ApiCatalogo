@@ -1,0 +1,2 @@
+﻿1º: NET 6 - A classe Startup:
+	1.1º: Os novos templates de projeto para criar aplicações ASP.NET Core MVC ou WEB API não criam mais a classe Startup no projeto; 

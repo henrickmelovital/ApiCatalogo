@@ -1,0 +1,3 @@
+﻿1º: Criando o arquivo de contexto do EF CORE:
+	1.1º: DbContext - Representa uma sessão com o banco de dados sendo a ponte entre as entidades de domínio e o banco;
+	1.2º: DbSet<T> - Representa uma coleção de entidades no contexto que podem ser consultadas no banco de dados;

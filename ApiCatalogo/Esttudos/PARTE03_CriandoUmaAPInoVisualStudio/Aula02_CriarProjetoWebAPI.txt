@@ -1,0 +1,14 @@
+﻿1º: Criar Web API no VS 2022:
+	1.1º: Criar o projeto no VS 2022 Community - ApiCatalogo;
+	1.2º: Criar o projeto com opção para habilitar a Open API e usar Controllers;
+	1.3º: Criar o modelo de entidades - Produto e Categoria;
+	1.4º: Configurar o projeto para usar o EF Core e Incluir referência ao EF Core;
+	1.5º: Definir o banco de dados usado - SQL Server;
+	1.6º: Definir a classe de contexto do EF Core - AppDbContext
+	1.7º: Definir o mapeamento de entidades para as tableas - DbSet<T>;
+	1.8º: Registrar o contexto como um serviço - Program;
+	1.9º: Definir a string de conexão no arquivo appsettings.json;
+	1.10º: Definir o provedor do banco de dados (Pomelp) e obter a string de con~exão;
+	1.11º: Aplicar o Migration e criar o banco de dados e as tabelas;
+	1.12º: Criar os controladores: ProdutosController e CategoriasController;
+	1.13º: Definir os endpoints ou métodos Action para realizar as operações CRUD

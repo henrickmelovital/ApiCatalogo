@@ -1,0 +1,4 @@
+﻿1º: O que é o EF Core Migrations:
+	1.1º: O recurso MIgrations no EF Core oferece uma maneira de atualizar de forma incremental o esquema de banco de dados para mantê-lo em sincronia com o modelo de dados do aplicativo, preservando os dados existentes no banco de dados.
+	1.2º: É uma forma de versionar, ou seja, de manter o esquema de banco de dados sincronizado com o modelo de EF Core preservando os dados existentes;
+	1.3º: Sempre que você alter as classes do modelo de dominio, precisará executar o Migrations para manter o esqeuma do banco de dados atualizado.

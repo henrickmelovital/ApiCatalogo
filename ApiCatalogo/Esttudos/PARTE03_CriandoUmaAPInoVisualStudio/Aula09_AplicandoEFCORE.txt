@@ -1,0 +1,12 @@
+﻿1º: EF Core e Migrations e as Convenções:
+	1.1º: As convenções do EF Core são um conjunto de regras que são usadas para criar e atualizar o esquema do banco de dados com base no modelo do EF Core;
+	1.2º: Para o MySql o tipo string é mapeado para longtext e o tipo decimal usa uma precisão de 65 digitos com 30 casa decimais;
+	1.3º: Podemos sobrescrever as convenções do EF Core e otimizar as definições usadas para gerar as colunas nas tabelas;
+	1.4º: Usar os atributos da plataforma .NET chamado Data Annotations;
+
+2º: Data Annotations:
+	2.1º: São atributos que podem ser aplicados a classes e seus membros para realizar as seguintes tarefas:
+		2.1.1º: Definir regras de validação para o modelo;
+		2.1.2º: Definir como os dados devem ser exibidos na interface(*);
+		2.1.3º: Especificar o relacionamento entre as entidades do modelo;
+		2.1.4º: Sobrescrever as convenções padrão do Entity Frameowrk Core;

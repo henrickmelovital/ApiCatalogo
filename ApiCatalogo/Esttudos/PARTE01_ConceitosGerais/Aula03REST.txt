@@ -1,0 +1,35 @@
+1º: REST:
+    1.1º: REST é um estilo de arquitetura para concepção de sistemas distribuídos;
+    1.2º: Não é um padrão, não é uma tecnologia, mas é um conjunto de restrições, um conjunto de regras. As principais restrições REST são:
+
+2º: O que torna uma API RESTful:
+    2.1º: Ter um relacionamento cliente/servidor;
+    2.2º: Não possuir monitoração de estado (stateless);
+    2.3º: Ter uma interface uniforme (URIs, representação, mensagens, auto-descritivas, hipermídia(hiperlink, hipertexto));
+    2.4º: Suportar o cache de dados e respotas;
+    2.5º: Suportar um sistema em camadas;
+
+3º: REST - Arquitetura Cliente/Servidor:
+    3.1º: Recursos: É uma abstração sobre um tipo de informação que uma aplicação gerenncia que possui uma identificação única.(URI);
+    3.2º: representação: É um instantâneo do estado de um recurso em um ponto no tempo. Uma sequência de bytes associados com metadados;
+    3.3º: Interações sem Estado(Stateless): A comunicação entre o cliente e o servidor sempre contém todas as informações necessárias para executar a solicitação;
+    3.4º: Mensagens: As mensagens devem ser autodescritivas. No HTTP usa-se os verbos GET, POST, PUT e DELETE e o HEADER, BODY, LOCATION, MEDIA-TYPE;
+
+4º: Web API: 
+    4.1º: Quando uma WEB API adere aos princípios REST temos um serviço RESTful;
+    4.2º: A primeira coisa a fazer ao criar um serviço RESTful é determinar quais recursos vamos expor:
+        4.2.1º: Todos os Livros Cadastrados;
+        4.2.2º: Um Livro Cadastrado;
+        4.2.3º: Todos os livros de um autor;
+    4.3º: Após definir os recursos que o servço expõe, mapeando os recursos para URIs
+        4.3.1º: http://api/macoratti/livros
+        4.3.2º: http://api/macoratti/livros/1
+        4.3.3º: http://api/macoratti/autor/1/livros
+
+5º: Toda requisição recebe um código de resposta conhecido como statusé possível saber se uma operação foi realizada com sucesso:
+    5.1º: Código de Status HTTP:
+        5.1.1º: 1XX - Informativo;
+        5.1.2º: 2xx - Sucesso;
+        5.1.3º: 3xx - Redirecionamento;
+        5.1.4º: 4xx - Erro do cliente;
+        5.1.5º: 5xx - Erro do Servidor;

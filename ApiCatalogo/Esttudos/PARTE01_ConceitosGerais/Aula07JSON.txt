@@ -1,0 +1,37 @@
+1º: JSON - JavaScript Object Notation:
+    1.1º: É um formato compacto e leve, de padrão aberto independente, de troca de dados simples e rápida entre sistemas, especificado por Douglas Crockford em 200, que utiliza texto legível a humanos, no formato atributo-valor;
+    1.2º: JSON é menor do que XML, é mais rápido, mais fácil de ler e analisar;
+
+2º: JSON - Principais regras de sintaxe:
+    2.1º: Dados JSON estão definidos aos pares no formato chave:valor : "nome" : valor;
+    2.2º: Os dados são separados por virgular(,);
+    2.3º: As chaves {} contém objetos;
+    2.4º: Os colchetes expressam arrays;
+
+3º: JSON - Valores Usados:
+    3.1º: Um número (inteiro ou ponto flutuante):
+        3.1.1º: Ex.: "valor" : 12 ou "valor: 12.34
+    3.2º: Uma string (entre aspas): 
+        3.2.1º: Ex.: "nome" : "Henrick";
+    3.3º: Um booleano (true ou false) (verdadeiro ou falso):
+        3.3.1º: Ex.: "ativo" : true;
+    3.4º: Um array (entre colchetes[]):
+        3.4.1º: Ex.: "cores" : ["azul", "branco", "preto"];
+    3.5º: Um objeto (entre chaves {}):
+        3.5.1º: Ex.: {"nome" : "Henrick". "idade": 33};
+    3.6º: Null (nulo):
+        3.6.1º: Ex.: "nome" : null;
+
+4º: JSON - Trabalahndo com JSON:
+    4.1º: Converter uma string (texto) para um objeto JSON;
+    4.2º: Converer um objeto JSON para string
+    4.3º: Ler os dados dos atributos de um JSON;
+    4.4º: Inserir e alterar os dados dos atributos de um JSON;
+
+5º: JSON - ASP.NET Core;
+    5.1º: A classe HttpClient é usada para enviar uma requisição HTTP e receber a respota da solicitação;
+    5.2º: Namespace: System.Net.Http:
+        5.3º: GetAsync, PostAsync, DeleteAsync, PutAsync;
+
+6º: Mudança de pacote para trabalhar com JSON:
+    6.1º: Microsoft.AspNetCore.Mvc.NewtonsoftJson => Syste,.Text.JSON

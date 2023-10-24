@@ -1,0 +1,45 @@
+1º: Método HTTP:
+    1.1º: Para consumir os recursos de uma Web API RESTful usamos os métodos HTTP (GET, POST, PUT, DELETE);
+
+2º: HTTP-GET (HEAD):
+    2.1º: Usado para recuperar informações (retornar a representação do recursos);
+    2.2º: Não altera o estado do recurso (método seguro);
+    2.3º: É idempotente (produz o mesmo resultado se repetida). Um método é considerado idempotente se o resultado de uma requisição realizada com sucesso é independente do número de vezes que é executada (Entenda resultado como sendo o estado do recurso no servidor);
+    2.4º: Possíveis retornos para o código de status HTTP:
+        2.4.1º: Recurso encontrado: 200 OK;
+        2.4.2º: Recurso não encontrado: 404, NOT FOUND;
+    2.5º: Exemplo de URI:
+        2.5.1º: GET http://localhost/api/livros/
+        2.5.2º: GET http://localhost/api/livros/1
+
+3º: HTTP POST (CREATE):
+    3.1º: Usado para criar uma informação(criar um novo recurso);
+    3.2º: Alteram o estado do recurso (não é um método seguro);
+    3.3º: Não são idempotente (não produz o mesmo resultado se repetida)
+    3.4º: Possíveis retornos para o código de status HTTP:
+        3.4.1º: Recurso criado: 201n CREATED;
+        3.4.2º: Recurso não identificado: 200 OK ou 204 NO CONTENT;
+    3.5º: Exemplos de URI:
+        3.5.1º: POST http://localhost/api/livros
+
+4º: HTTP PUT (UPDATE):
+    4.1º: Usado para atualizar uma informação (atualizar um recurso);
+    4.2º: Alteram o estado do recurso (não é um método seguro);
+    4.3º: São idempotente (produz o mesmo resultado se repetida);
+    4.4º: Possíveis retornos para o código de status HTTP;
+        4.4.1º: Recursos alterado: 200 OK ou 204 NO CONTENT;
+        4.4.2º: Recurso criado: 201 CREATED (*API decide); 
+        4.4.3º: Recurso não localizado: 404 NOT FOUND;
+    4.5º: Exemplos de URI:
+        4.5.1º: PUT http://localhost/api/livros/1
+
+5º: HTTP DELETE (DELETE):
+    5.1º: Usa para deletar uma informação (excluir um recurso);
+    5.2º: Alteram o estado do recurso (não é um método seguro);
+    5.3º: São idempotente(produz o mesmo resultado se repetida);
+    5.4º: Possíveis retornos para o código de status HTTP:
+        5.4.1º: Recurso excluído: 200 OK;
+        5.4.1º: Recurso não localizado;
+    5.5º: Exemplos de URI:
+        5.5.1º: DELETE http://localhost/api/livros/1
+    

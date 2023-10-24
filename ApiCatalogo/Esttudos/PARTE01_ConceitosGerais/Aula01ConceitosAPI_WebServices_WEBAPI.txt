@@ -1,0 +1,47 @@
+1º: API - Application Programmin Interface
+    1.1º: Conjunto de rotinas e padrões estabelecidos e documentados por uma aplicação para que outras aplicações consigam utlizar suas funcionalidades sem precisar conhecer detalhes da sua implementação;
+
+2º: API - Funcionalidades:
+    2.1º: Permitem fazer a integração de sistemas;
+    2.2º: Facilitam o intercâmbio de informações;
+    2.3º: Oferecem maior segurança nos dados;
+    2.4º: Permitem fazer o controle de acesso;
+    2.5º: São fáceis de implementar e usar;
+
+3º: Web Services:
+    3.1º: São um conjunto de métodos invocados por outras aplicações utlizando tecnologias Web sendo uma solução utilizada na integração de sistemas e na comunicação entre aplicações distintas;
+
+4º: Web Services - Funcionalidades:
+    4.1º: Estão apoiados no XML e nmo protocolo SOAP;
+    4.2º: Permitem integração de sistemas;
+    4.3º: Permitem a reutilização de código;
+    4.4º: Podem ser desenvolvidas em tempo reduzido;
+    4.5º: Apresentam maior segurança;
+
+5º: Web Services - Caracteristicas:
+    5.1º: Todas os Web Services são APIs;
+    5.2º: Usam apenas três meios de comunicação: SOAP, REST e XML-RPC;
+    5.3º: São autocontidas e autodescritivas que podem ser publicados, localizados e invocados na Web;
+    5.4º: Requer um protocolo SOAP para receber e enviar dados pela rede, portanto não é uma arquitetura leve;
+    5.5º: Necessita de uma rede para o seu funcionamento;
+    5.6º: Tendem a oferecer funcionalidades especiais a usuários específicos.
+
+6º: APIs - Caracteristicas:
+    6.1º: Uma API pode usar qualquer meio de comunicação;
+    6.2º: São de código aberto e podem ser usadas em qualquer lugar;
+    6.3º: Podem realizar todas as operações dos web services;
+    6.4º: É uma arquitetura leve para dispositivos com largura de banda limitada, como dispositivos móveis;
+    6.5º: Não precisa de uma rede para funcionar;
+    6.6º: Tendem a serem abertas a qualquer tipo de usuários que a pretendem consumir;
+
+7º: Web Api:
+    7.1º: É uma API na internet, com um conjunto de serviços expostos via web para realizar a integração da aplicação com diversos tipos de clientes (web, mobile, desktop, etc.);
+
+8º: Web APIs - Caracteristicas:
+    8.1º: Java, .NET, Ruby on Rayls, JacaScript, Node.js, etc;
+    8.2º: Resposta em um formato específico com XML, JSON, etc.
+    8.3º: Pode ser acessadas usando o protocolo HTTP;
+    8.4º: Tipode de resposta: arquivo texto, imagem, som, operação, banco de dados, objetos, etc;
+
+pº: Tipos APIs:
+    9.1º: Públicas: Facebook, Twitter, Instagram, Google Maps. NetFlix, PagSeguro, PayPal. Paypal, Gerencianet, Uber, Ifood, Telegram, NasaAPI, Open Weather;

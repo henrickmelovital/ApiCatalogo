@@ -1,0 +1,3 @@
+﻿1º: Criação do Modelo de Dominio:
+	1.1º: Criar a pasta 'Domain' ou 'Models'
+	1.2º: Criar a primeira entidade de dominio 'Categoria' e 'Produto'

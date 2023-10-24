@@ -1,0 +1,5 @@
+﻿1º: Configurar o projeto para usar EF Core:
+	﻿1.1º Instalação dos Três Pacotes nuget :
+		1.1.1º: Microsoft.EntityFrameworkCore.SqlServer;
+		1.1.2º: Microsoft.EntityFrameworkCore.Tools;
+		1.1.3º: Microsoft.EntityFrameworkCore.Design;

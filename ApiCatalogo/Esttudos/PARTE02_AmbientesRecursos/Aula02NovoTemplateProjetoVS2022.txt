@@ -1,0 +1,8 @@
+﻿1º: NET 6 - Novo template ASP.NET Core Web API:
+	1.1º: Criar uma Web API usando Controller;
+	1.2º: Criar uma Web API usando minimal APIs (sem controllers);
+	1.3º: Não usa mais a classe Startup;
+	1.4º: A configuração dos serviços é feita na classe Program;
+	1.5º: A classe Program usa os seguintes recursos do c#;
+		1.5.1º: Top Level Statements (não usa o método Main);
+		1.5.2º: Global Usings - Uso de diretivas using de forma implicita (Sem declarações using);

@@ -1,0 +1,50 @@
+﻿1º: Criando um projeto no Visual Studio - Definição do Projeto:
+	1.1º: Criar uma WebAPI para um catálogo de produtos/categorias que pode atender uma rede de lojas ou supermercados;
+	1.2º: Criar um serviço RESTful que permita que aplicativos clientes gerenciem o catálogo de produtos e categorias;
+	1.3º: Expor endpoint para criar, ler, editar e excluir produtos e também para consultar produtos e um produto específico;
+	1.4º: Expor endpoints para criar ler, editar e excluir categorias e também consultar categorias, uma categoria específica e os produtos de uma categoria;
+	1.5º: Um endpoint é a URL onde seu serviço pode ser acessado por uma aplicação cliente.
+		1.5.1º: Criação de dois endpoints:
+			1.5.1.1º: Categorias;
+			1.5.1.2º: Produtos;
+
+2º: Implementar a seguranção:
+	2.1º: Permitir o acesso às APIs somente a usuários autenticados;
+	2.2º: Definir uma politica de autorização de acesso aos usuários;
+	2.3º: Criar um serviço RESTful que permita gerenciar os usuários;
+	2.4º: Expor endpoints para criar, ler, editar e excluir usuários e também para consultar usuários e um usuário especifico;
+	2.5º: Para os usuários precisamos armazenar: nome, email, senha;
+
+3º: Persistência dos Dados:
+	3.1º: Banco de dados relacional: SQL Server (MySql, PostgreSql, SQLite, Oracle, etc.);
+	3.2º: Entity Framework Core;
+	3.3º: Abordagem Code-First - Parte das entidades para criar as tabelas e o banco de dados;
+	3.4º: Padrão Repositório (desacoplar o acesos aos dados da aplicação);
+
+4º: Nomenclatura:
+	4.1º: Nome do Projeto - 
+	4.2º: Nome do controllers - No plural;
+	4.3º: Nome das Action - Acesso feito via verbos http;
+	4.4º: Uma instância de um recurso - No plural;
+	4.5º: Usar substanticos e não verbos
+
+5º: Estrutura do Projeto: Arquitetura em Camadas:
+	5.1º: Camada de Apresentação:
+		5.1.1º: A camada com o maior nível superior da aplicação é a interface com o usuário. A principal função da interface é traduzir tarefas e resultados para alguma coisa que o usuário possa comprrender;
+	5.2º: Camada de Negócio:
+		5.2.1º: Está camada coordena a aplicação, processa comandos, toma decisões lógicas, faz avaliações e realiza cálculos. Ela também transfere e processa dados entre as camadas de dados e a camada de apresentação;
+	5.3º: Camada de Acesso a Dados:
+		5.3.1º: Na camada de acesso a dados a informação é armazenada e retornada de uma fonte de dados. A informação é então passada de volta para a camada de negócios para processamento e então apresentada ao usuário.
+	5.4º: Layers - Separação lógica: Refere-se a organização do código e daos dados;
+	5.5º: Tiers - Separação Física: Geralmente se refere à distribuição d código e dos dados;
+	5.6º: n-layer - Não implica em n-tier e vice-versa;
+
+6º: Estrutura do Projeto:
+	6.1º: Presentation Layer - Angular, Views, Mobile, Desktop;
+	6.2º: Business Logic/Application Core - Repositorios, Dominio, Serviços;
+	6.3º: Data Access/Persistence - EF Core, SQL Server
+
+	6.4º: Presentation - Angular, Views, Mobile, Desktop;
+	6.5º: Service - Classes de serviços;
+	6.6º: Business Logic/Application Core - Repositorios, Domínio, Serviços;
+	6.7º: Data Access/Persistence - EF Core, SQL Server;
