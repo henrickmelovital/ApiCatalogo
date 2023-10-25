@@ -1,0 +1,4 @@
+﻿1º: Controller ProdutosController:
+	1.1º: Criar métodos Actions no controller usando os recursos das Web APIs (COntrollerBase)
+	1.2º: Definir os recursos, os endpoints e o mapeamento para gerenciar informações de produtos (CRUD);
+	1.3º: 

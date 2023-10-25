@@ -1,0 +1,27 @@
+﻿1º: Web APIs ASP.NET Core - Visão Geral:
+	1.1º: Controllers ou Controladores;
+	1.2º: Minimal APIs;
+	1.3º: Os controllers são arquivos armazenados dentro da pasta Controllers Criada na raiz de uma aplicação ASP.NET Core Web API usando o template de projeto padrão;
+	1.4º: Os controllers em uma Web API  são classes que derivam da classe ControllerBase;
+	1.5º: O nome de um controller é formado pelo nome do Controller seguido do sufixo Controller.
+		1.5.1º: CategoriaController, ProdutoController;
+
+2º: Controllers
+	2.1º: A classe ControllerBase fornece muitas propriedades e métodos que são úteis para lidar com requisições HTTP;
+	2.2º: Método:							Descrição:
+		  BadRequest()						Retorna o status code 400
+		  NotFound()						Retorna o status code 404
+		  CreatedAction()					Retorna o status code 201
+		  PhysicalFile()					Retorna um arquivo
+		  TryValidationModel()				Invoca a validação do modelo
+		  Ok()								Retorna o status code 200
+	2.2º: [ApiController] - O atributo [ApiController] permite decorar os controladores habilitando recursos como:
+		2.2.1º: Requisito de roteamento de atributos;
+		2.2.2º: Resposta HTTP 400 automáticos (Validação do Model State);
+		2.2.3º: Inferência de parâmetro de origem de associação;
+		2.2.4º: Inferência de solicitação de dados de várias partes/formulários;
+		2.2.5º: Uso de Problem Details para código de status de erro;
+	2.3º: [Route] - O atributo [Rote] especifica um padrão de URL para acessar um controller ou Action:
+		2.3.1º: [Route("[Controller]") -> Indica a rota com o nome do controlador (teste)]
+	2.4º: Habilitando os controladores:
+		2.4.1: builder.Services.AddControllers();
