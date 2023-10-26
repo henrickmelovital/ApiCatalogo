@@ -1,0 +1,20 @@
+﻿1º: Ajustando a API: Serialização e Desserialização JSON:
+	1.1º: JSON - Serialização e Desserialização:
+		1.1.1º: A biblioteca NewtonSoft.json era usada para serializar e desserializar (até a versão 2.2);
+		1.1.2º: A biblioteca System.Text.Json foi incluída a partir da versão 3.0 (é o padrão);
+	1.2º: ReferenceHandler:
+		1.2.1º: Define como o JsonSerializer lida com referência sobre serialização e desserialização;
+	1.3º: IgnoreCycles:
+		1.3.1º: Ignorando o objeto quando um ciclo de refência é detectada durante a serialização;
+
+2º: Ajustando a API: Serialização e Desserialização - Propriedades Públicas:
+	2.1º: Ao serializar objetos C# para JavaScript Object Notation(JSON), por padrão, todos as propriedades públicos são serializadas.
+	2.2º: Ignorando propriedades individuais:
+		2.2.1º: [JsonIgnore]	[JsonIgnore(Condition = JsonIgnoreCondition.Always)]:
+			2.2.1.1º: Sempre ignora a propriedade (padrão);
+		2.2.2º: [JsonIgnore(Condition = JsonIgnoreCondition.Never)]:
+			2.2.2.1º: Sempre serializa e desserializa a propriedade;
+		2.2.3º: [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]:
+			2.2.3.1º: A propriedade será ignorada na serialização se for um tipo de referência null, um tipo de valor nullable com valor null ou um tipo de valor padrão;
+		2.2.4º: [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]:
+			2.2.4.1º: A propriedade será ignorada na serialização se for um tipo de referência null, ou um tipo de valor que pode ser anulado com valor null;

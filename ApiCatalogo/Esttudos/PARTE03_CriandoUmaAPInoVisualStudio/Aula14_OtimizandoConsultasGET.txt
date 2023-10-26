@@ -1,0 +1,11 @@
+﻿1º: API - Otimizando o código nas consultas com HTTP GET:
+	1.1º: Quando consultamos entidades usando o entity framework ele armazena as entidades no contexto (em cache) realizando o tracking ou rastreamento das entidades para acomponhas o estado das entidades;
+	1.2º: Este recurso adiciona uma sobrecarga que afeta o desempenho das consultas rastreadas;
+	1.3º: Para melhorar o desempenho podemos usar o método: AsNoTracking();
+	1.4º: Usar AsNoTracking() apenas para consultas somente leitura sem a necessidade de alterar os dados;
+
+2º: Otimizando o desempenho:
+	2.1º: Nunca retorne todos os registros em uma consulta:
+		2.1.1º: _appDbContext.Produtos.Take(10).ToList();
+	2.2º: Nunca retorne objetos relacionados sem aplicar um filtro:
+		2.2.2º: _appDbContext.Categorias.Include(p => p.Produtos).Where(c => c.CategoriaId <= 5).ToList();

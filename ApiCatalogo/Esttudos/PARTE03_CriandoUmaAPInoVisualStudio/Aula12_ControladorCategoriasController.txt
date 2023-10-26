@@ -1,0 +1,4 @@
+﻿1º: Controller CategoriasController:
+	1.1º: Criar métodos Actions no controller usando os recursos das Web APIs (ControllerBase)
+	1.2º: Definir os recursos, os endpoints e o mapeamento para gerenciar informações das categorias (CRUD);
+	1.3º: 

@@ -1,0 +1,15 @@
+﻿1º: Tratamento de erros: Ambiente de desenvolvimento:
+	1.1º: Usar por padrão a página de exceção do desenvolvmento que exibe informações detalhadas sobre as exceções como:
+		1.1.1º: Stack Trace (Rastreamento de pilha);
+		1.1.2º: Parâmetros de cadeia de caracteres de consulta;
+		1.1.3º: Cookies;
+		1.1.4º: Headers (Cabeçalhos);
+	1.2º: As informações de exceção detalhadas são devem ser exibidas quando o aplicativo for executado no ambiente de produção;
+
+2º: Tratamento de erros: Ambiente de produção:
+	2.1º: Para configurar uma página de tratamento de erros personalizada para o ambiente de produção usamos o middleware UseExceptionHandler;
+		2.1.1º: Captura e registra exceções não tratadas;
+		2.1.2º: Execute novamente o request em um pipeline alternativo usando o caminho indicado (Quando o response não foi iniciado). O código gerado executa o request usando o caminho/Error.
+
+3º: StatusCode:
+	3.1º:
